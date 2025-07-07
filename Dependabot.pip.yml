@@ -1,0 +1,25 @@
+- package-ecosystem: "pip"
+  directory: "/"
+  commit-message:
+    prefix: "pip"
+    prefix-development: "pip-dev"
+  labels: [ 'chore ' ]
+  reviewers:
+  - "Harvester57"
+  schedule:
+    interval: "cron"
+    cronjob: "0 7 * * *"
+    timezone: "Europe/Paris"
+  groups:
+    pip-dev-dependencies:
+      applies-to: version-updates
+      patterns:
+      - "*"
+      dependency-type: development
+    pip-prod-dependencies:
+      applies-to: version-updates
+      patterns:
+      - "*"
+      dependency-type: production
+  allow:
+  - dependency-type: all

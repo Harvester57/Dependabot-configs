@@ -1,0 +1,16 @@
+- package-ecosystem: "cargo"
+  directory: "/"
+  commit-message:
+    prefix: "cargo"
+  labels: [ 'chore ' ]
+  reviewers:
+  - "Harvester57"
+  schedule:
+    interval: "cron"
+    cronjob: "0 7 * * *"
+    timezone: "Europe/Paris"
+  groups:
+    actions-dependencies:
+      applies-to: version-updates
+      patterns:
+      - "*"
