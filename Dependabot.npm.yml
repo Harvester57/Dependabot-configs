@@ -1,0 +1,15 @@
+- package-ecosystem: "npm"
+  directory: "/"
+  commit-message:
+    prefix: "npm"
+  labels: [ 'chore' ]
+  schedule:
+    interval: "cron"
+    cronjob: "0 7 * * *"
+  groups:
+    npm-prod-dependencies:
+      applies-to: version-updates
+      dependency-type: "production"
+    npm-dev-dependencies:
+      dependency-type: "development"
+      applies-to: version-updates
