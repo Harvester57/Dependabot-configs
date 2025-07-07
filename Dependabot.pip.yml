@@ -4,7 +4,7 @@
     prefix: "pip"
     prefix-development: "pip-dev"
   labels: [ 'chore ' ]
-  reviewers:
+  assignees:
   - "Harvester57"
   schedule:
     interval: "cron"

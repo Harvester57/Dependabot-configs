@@ -3,7 +3,7 @@
   commit-message:
     prefix: "cargo"
   labels: [ 'chore' ]
-  reviewers:
+  assignees:
   - "Harvester57"
   schedule:
     interval: "cron"

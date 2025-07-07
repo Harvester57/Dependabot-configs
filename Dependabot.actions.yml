@@ -3,7 +3,7 @@
   commit-message:
     prefix: "actions"
   labels: [ 'chore' ]
-  reviewers:
+  assignees:
   - "Harvester57"
   schedule:
     interval: "cron"

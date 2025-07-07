@@ -3,6 +3,8 @@
   commit-message:
     prefix: "npm"
   labels: [ 'chore' ]
+  assignees:
+  - "Harvester57"
   schedule:
     interval: "cron"
     cronjob: "0 7 * * *"
