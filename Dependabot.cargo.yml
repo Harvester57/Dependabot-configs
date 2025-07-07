@@ -2,7 +2,7 @@
   directory: "/"
   commit-message:
     prefix: "cargo"
-  labels: [ 'chore ' ]
+  labels: [ 'chore' ]
   reviewers:
   - "Harvester57"
   schedule:

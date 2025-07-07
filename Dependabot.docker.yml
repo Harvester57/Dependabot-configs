@@ -2,7 +2,7 @@
   directory: "/"
   commit-message:
     prefix: "docker"
-  labels: [ 'chore ' ]
+  labels: [ 'chore' ]
   assignees:
   - "Harvester57"
   schedule:
